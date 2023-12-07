@@ -1,18 +1,17 @@
-
 export function exercise01(args) {
   const input = args
   const result = []
- 
+
   for (let i = 0; i < input.length; i++) {
     const currentElement = input[i]
     if (currentElement != "e" && currentElement != "E")
-    result.push(currentElement)
+      result.push(currentElement)
   }
   return result.join("")
 }
 
-export function exercise02(args){
-  const input = args
-  input.toUpperCase()
-  input = input
+export function exercise02(args) {
+  return args.toUpperCase()
 }
+
+export function exercise03(args) {}
