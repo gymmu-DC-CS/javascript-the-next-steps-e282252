@@ -14,4 +14,8 @@ export function exercise02(args) {
   return args.toUpperCase()
 }
 
+export function exercise02(args) {
+  return args.toUpperCase()
+}
+
 export function exercise03(args) {}
